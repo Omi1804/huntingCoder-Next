@@ -1,0 +1,22 @@
+.center {
+  text-align: center;
+}
+
+.mainHeading {
+  margin: 8rem;
+  text-decoration: underline;
+}
+
+.mainNav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.mainNav ul li {
+  list-style: none;
+  margin-inline: 2rem;
+  font-size: 1.3rem;
+  cursor: pointer;
+}
