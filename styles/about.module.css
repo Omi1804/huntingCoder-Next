@@ -1,0 +1,32 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+.aboutUsPage {
+  background-color: #f4f4f4;
+  padding: 40px;
+  text-align: center;
+  border: 3px solid #333;
+  margin-inline: 2rem;
+}
+
+.heading {
+  color: #333;
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+.subHeadings {
+  color: #333;
+  font-size: 2.2rem;
+  margin-block-start: 2rem;
+}
+
+.content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: justify;
+  font-size: 1.2rem;
+  line-height: 1.7;
+  font-family: "Poppins", sans-serif;
+}
+
+.teamSection {
+  margin-top: 40px;
+}
