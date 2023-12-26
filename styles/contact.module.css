@@ -1,0 +1,65 @@
+.contactContainer {
+  max-width: 60rem;
+  margin: 5rem auto;
+  padding: 3rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #333333b3;
+  border: 3px solid #333;
+}
+
+.heading {
+  text-align: center;
+  font-size: 2rem;
+  color: #fff;
+  margin-bottom: 2rem;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  font-family: "Arial", sans-serif;
+}
+
+.formGroup {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+}
+
+.label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #fff; /* white color for better contrast */
+}
+
+.inputs,
+.textarea {
+  padding: 12px;
+  border: 2px solid #eee; /* softer border */
+  border-radius: 8px; /* rounded corners */
+  transition: border-color 0.3s; /* smooth transition for focus */
+}
+
+.inputs:focus,
+.textarea:focus {
+  border-color: #333; /* highlight on focus */
+  outline: none; /* removing default outline */
+}
+
+.submitBtn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 8px; /* rounded corners */
+  padding: 12px 24px;
+  cursor: pointer;
+  transition: background-color 0.3s; /* smooth background transition */
+  margin-top: 1rem;
+}
+
+.submitBtn:hover {
+  background-color: #0056b3;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* subtle shadow on hover */
+}
